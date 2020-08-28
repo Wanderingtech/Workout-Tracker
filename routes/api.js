@@ -30,3 +30,4 @@ router.get("/api/workouts/range",function(req,res){
         res.json(exercises)
     })
 })
+module.exports = router
